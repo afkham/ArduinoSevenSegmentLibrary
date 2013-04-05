@@ -11,9 +11,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
-// Conversion from uS to distance (round result to nearest cm or inch).
-//#define SevenSegment(echoTime, conversionFactor) (max((echoTime + conversionFactor / 2) / conversionFactor, (echoTime ? 1 : 0)))
-
 #define COMMON_ANODE 3
 #define COMMON_CATHODE 4
 
