@@ -2,9 +2,6 @@
 #include "Arduino.h"
 #include "SevenSegment.h"
 
-// Simply change commonCathode to 1 for common cathode 7-seg display
-#define commonCathode 0
-
 // ---------------------------------------------------------------------------
 // SevenSegment constructor
 // ---------------------------------------------------------------------------
